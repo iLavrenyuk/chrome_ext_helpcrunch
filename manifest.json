@@ -2,12 +2,13 @@
   "manifest_version": 3,
   "name": "Replace Helpcrunch icon",
   "version": "1.0",
-  "description": "Замінює іконку у класі 'hcw-widget-button__icon' на SVG",
+  "description": "Замінює фото супорту на SVG",
   "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Замінити іконку"
+    "default_title": "Замінити іконку в iframe"
   }
 }
